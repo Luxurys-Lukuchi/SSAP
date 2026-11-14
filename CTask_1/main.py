@@ -33,7 +33,7 @@ ZF0 = 376.73
 
 
 def microstrip_line(w_um, h_um, er):
-    """Z0 [Ом] и eps_eff линии (Hammerstad-Jensen, как в Qucs)."""
+   
     u = w_um / h_um
     a = (1.0 + math.log((u**4 + (u / 52.0)**2) / (u**4 + 0.432)) / 49.0
          + math.log(1.0 + (u / 18.1)**3) / 18.7)
